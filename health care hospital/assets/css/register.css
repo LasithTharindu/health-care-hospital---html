@@ -1,0 +1,125 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#background{
+    background-color: #000;
+    background-image: url(../image/LabsBanner2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;;
+}
+
+#loginContainer *{
+    color: #037383;;
+    font-family:  "Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight:  normal;
+    line-height: 1em;
+    box-sizing:  border-box;
+}
+#loginContainer{
+    width:80%;
+    margin:0 auto;
+    position:relative;
+    max-width:1020px;
+}
+::-webkit-input-placeholder{/* Webkit,Blink,Edge*/
+    color: #fff;
+}
+
+::-moz-placeholder{/* Mozilla Firefox 4 to 18*/
+    color: #fff;
+    opacity: 1;
+}
+
+::-moz-placeholder{/* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity: 1;
+}
+:-ms-input-placeholder{/* Internet Explorer*/
+    color: #fff;
+}
+
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #b4fdf6;
+}
+#inputContainer h2{
+    text-align:center
+}
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+#inputContainer label{
+    color: #040404;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+}
+#inputContainer button{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+#inputContainer button:hover{
+    cursor: pointer;
+}
+
+.hasAccountText span{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+.hasAccountText{
+    text-align: center;
+}
+
+#registerForm,
+#loginForm{
+    display: none;
+}
+#loginText{
+    padding: 45px;
+    display: table-cell;
+}
+
+#loginText h1{
+    color: #fafafa;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+#loginText h2{
+    margin: 34px;
+    font-size: 18px;
+}
+#loginText lu{
+    padding: 133px;
+}
+#inputContainer.errorMessage{
+    color: #8a5de0;
+    font-size: 15px;
+    display: block;
+}
